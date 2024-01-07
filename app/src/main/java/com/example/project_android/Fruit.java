@@ -1,15 +1,15 @@
 package com.example.project_android;
 
 public class Fruit {
-    private String name;
+    private int name;
     private String category;
     private double price;
 
-    public String getName() {
+    public int getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(int name) {
         this.name = name;
     }
 
@@ -29,7 +29,7 @@ public class Fruit {
         this.price = price;
     }
 
-    public Fruit(String name, String category, double price) {
+    public Fruit(int name, String category, double price) {
         this.name = name;
         this.category = category;
         this.price = price;
